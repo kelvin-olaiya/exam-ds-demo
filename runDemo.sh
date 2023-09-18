@@ -8,11 +8,12 @@ then
     fi
 fi
 
-
-
 # start infrastructure
 docker compose build
 docker compose up -d
 
 # start client
 ./distribute.sh
+
+# bring down the infrastructure
+docker compose down
