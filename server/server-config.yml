@@ -1,0 +1,4 @@
+incarnation: protelis
+launcher:
+  type: ServerLauncher
+  parameters: ["distribution-config.yml"]
