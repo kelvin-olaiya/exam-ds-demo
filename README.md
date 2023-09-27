@@ -25,7 +25,7 @@ Let's look at the directory structure:
     └── startup.sh
 ```
 
-And the demo steps will be described:
+And now let's see what are the demo steps:
 
 1. The first step consists on bringing up the needed infrastructure. That's to say the **etcd** cluster, the **rabbitMQ** message broker and two **Alchemist server** nodes. For this you may take a look at the `./docker-compose.yml` file.
 2. Now we should have a pair of nodes ready to receive simulation job orders. So a client is launched using the `./alchemist.jar` file. (Due to its dimensions, the jar file is not directly included in the demo git repository but, it will be downloaded if it is not found in the root directory). You can find the simulation configuration at `./client/client-config.yml`
