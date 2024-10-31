@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17
+FROM eclipse-temurin:21
 WORKDIR /home
 ADD alchemist.jar .
 COPY server/server-config.yml .
