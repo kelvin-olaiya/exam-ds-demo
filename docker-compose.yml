@@ -54,7 +54,7 @@ services:
       ETCD_INITIAL_CLUSTER_STATE: new
       ETCD_MAX_REQUEST_BYTES: 268435456
   rabbitmq-service:
-    image: rabbitmq:3-management
+    image: rabbitmq:4-management
     restart: always
     ports:
       - "5672:5672"
